@@ -190,7 +190,7 @@ Here, each step performed in the Azure portal is explained in detail.
 
 #### 1. Connect to VMs and Install IIS
 
-* [cite_start]**Purpose:** To install the Internet Information Services (IIS) web server on both VMs so they can serve web content[cite: 44].
+* **Purpose:** To install the Internet Information Services (IIS) web server on both VMs so they can serve web content
 * **Steps (for both `lb-vm1` and `lb-vm2`):**
     1.  Go to the VM's overview page (e.g., search for `lb-vm1` and click on it).
     2.  Click `Connect` -> `Bastion` -> `Use Bastion`.
