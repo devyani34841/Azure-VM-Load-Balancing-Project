@@ -109,11 +109,14 @@ Here, each step performed in the Azure portal is explained in detail.
     6.  Click `Review + create`, then `Create`.
 
 * **Screenshots:**
-    ![Create NAT Gateway - Basics](images/nat_gateway_basics.png)
+* 
+    ![Create NAT Gateway - Basics](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/a4c13264e4cd30f864571c402d72aa16674c81bd/images/NatGateway.png)
+
    
-    ![Create NAT Gateway - Outbound IP](images/nat_gateway_outbound_ip.png)
+    ![Create NAT Gateway - Outbound IP]()
+
   
-    ![Create NAT Gateway - Subnets](images/nat_gateway_subnets.png)
+    ![Create NAT Gateway - Subnets]()
   
 
 #### 2. Configure Azure Bastion
