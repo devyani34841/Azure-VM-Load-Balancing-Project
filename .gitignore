@@ -1,0 +1,70 @@
+# Azure-specific files and directories
+.azure/
+.vs/
+.vscode/
+*.user
+*.suo
+*.webpublish
+*.publishprofile
+*.pubxml
+*.tfstate
+*.tfstate.backup
+
+# General IDE and OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+log/
+logs/
+
+# Package files
+*.nupkg
+*.snupkg
+
+# Dependency directories
+node_modules/
+bin/
+obj/
+
+# Visual Studio specific
+*.obj
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.ncb
+*.opendb
+*.aps
+*.bsc
+*.map
+*.sbr
+*.tlb
+*.tlh
+*.tmp
+*.rsp
+*.pgc
+*.pgd
+*.metagen
+*.mdb
+*.mdp
+*.res
+*.resources
+*.designer.cs
+*.xproj
+*.user.resharper
+*.nuspec
+ProjectName*.csproj.user
+ProjectName*.vbproj.user
+*.rcproj.user
+
+# Temporary files
+*.~*
+*.bak
+*.old
+*.tmp
+*.*~
