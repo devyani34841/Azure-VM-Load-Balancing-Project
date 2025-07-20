@@ -140,8 +140,8 @@ Here, each step performed in the Azure portal is explained in detail.
     ![Create Azure Bastion - Basics]()https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/ef8e34ed7cba21148033279789db1beaa32f356d/images/createbastion.png
 
   
-    ![Azure Bastion Deployment In Progress](images/bastion_deploying.png)
-    *Description: Screenshot showing Azure Bastion deployment in progress (can take a few minutes).*
+    ![Azure Bastion Deployment In Progress](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/fc5a7c8ffe8df4c55a01b51f863f8a7c23616d11/images/c%20bastion.png)
+  
 
 ### C. Deploying Virtual Machines
 
