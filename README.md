@@ -113,7 +113,7 @@ Here, each step performed in the Azure portal is explained in detail.
     ![Create NAT Gateway - Basics](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/a4c13264e4cd30f864571c402d72aa16674c81bd/images/NatGateway.png)
 
    
-    ![Create NAT Gateway - Outbound IP]()
+    ![Create NAT Gateway - Outbound IP](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/d6335798b79f67bf0165c9541a7ceb5e3d2e3c0a/images/NatGateway2.png)
 
   
     ![Create NAT Gateway - Subnets]()
