@@ -184,7 +184,8 @@ Here, each step performed in the Azure portal is explained in detail.
 * **Screenshot:**
     ![Create VM2 - Basics](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/40a448086188e64f87da2db1b9a402500dce4fb8/images/virtualmachine.png)
 
-    ![Create VM2 - Basic]
+    ![Create VM2 - Basic](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/2ce338c54178ee0bc4063930a8b07e901a1c7ee4/images/virtualmachinecomplete.png)
+  
 ### D. Install IIS and Configure Load Balancer
 
 #### 1. Connect to VMs and Install IIS
