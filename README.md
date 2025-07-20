@@ -206,7 +206,8 @@ Here, each step performed in the Azure portal is explained in detail.
         * Close the Bastion browser tab to disconnect.
 
 * **Screenshots:**
-    ![Connect to VM via Bastion](images/bastion_connect_vm.png)
+* 
+    ![Connect to VM via Bastion](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/94722000b890e0b7fa0b57150e96c442a110a8fa/images/fbastion.png)
     *Description: Screenshot showing connecting to a VM using Azure Bastion.*
     ![Install IIS - Server Manager Roles](images/iis_install_roles.png)
     *Description: Screenshot inside the VM, showing Server Manager with "Web Server (IIS)" selected for installation.*
