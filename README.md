@@ -75,12 +75,15 @@ Here, each step performed in the Azure portal is explained in detail.
             * Click `Add`.
     5.  Click `Review + create`, then `Create`.
 
-* **Screenshots:**
+* **Screenshots:***
+*  
     ![Create VNet - Basics](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/b9b69e01c3add43047d54172c29be86baab193a1/images/Backendsubnet.png)
+
    
     ![Create VNet - IP Addresses with Subnets](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/64cecefdb0dfda6545b1364086495a6aec0531ce/images/Bastion.png)
 
-  ![Create VNet - IP Addresses ]()
+
+  ![Create VNet - IP Addresses ](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/7f852dc20757ab7b9160b4d90992f0fd3dee8ec7/images/virtualnetwork.png)
    
 ### B. Deploying Network Services
 
@@ -91,7 +94,7 @@ Here, each step performed in the Azure portal is explained in detail.
     1.  In the Azure Portal search bar, search for `NAT gateways` and select it.
     2.  Click on `+ Create`.
     3.  **Basics Tab:**
-        * **Subscription:** Your Subscription
+        * **Subscription:** Azure for Student
         * **Resource Group:** `LoadBalancerProjectRG`
         * **NAT gateway name:** `LoadBalancerNATGateway`
         * **Region:** `(Your Selected Region)`
@@ -107,11 +110,11 @@ Here, each step performed in the Azure portal is explained in detail.
 
 * **Screenshots:**
     ![Create NAT Gateway - Basics](images/nat_gateway_basics.png)
-    *Description: Screenshot of the NAT Gateway creation - Basics tab.*
+   
     ![Create NAT Gateway - Outbound IP](images/nat_gateway_outbound_ip.png)
-    *Description: Screenshot of the NAT Gateway creation - Outbound IP tab with new Public IP.*
+  
     ![Create NAT Gateway - Subnets](images/nat_gateway_subnets.png)
-    *Description: Screenshot of the NAT Gateway creation - Subnets tab showing BackendSubnet association.*
+  
 
 #### 2. Configure Azure Bastion
 
