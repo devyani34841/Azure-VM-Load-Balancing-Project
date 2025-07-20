@@ -14,8 +14,6 @@ The architecture of this project is illustrated in the following diagram:
 
 ![Azure Load Balancer Architecture](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/9abc6369ae1744f03142cde212f39d8ebb7dff25/images/architecture.png)
 
-[cite_start](Replace `architecture_diagram.png` with your actual screenshot of the architecture diagram from the PDF) [cite: 14]
-
 **Components Explanation:**
 
 * **Resource Group:** A logical container for all Azure resources.
@@ -32,7 +30,7 @@ The architecture of this project is illustrated in the following diagram:
 
 * An Azure account with an active subscription.
 
-## 4. Implementation Steps (Detailed Guide with Screenshots)
+## 4. Implementation Steps 
 
 Here, each step performed in the Azure portal is explained in detail.
 
@@ -46,15 +44,14 @@ Here, each step performed in the Azure portal is explained in detail.
     2.  In the search bar, search for `Resource groups` and select it.
     3.  Click on `+ Create`.
     4.  Fill in the details:
-        * **Subscription:** Your Subscription
+        * **Subscription:** Azure for Student 
         * **Resource group name:** `LoadBalancerProjectRG`
         * **Region:** `(Your Selected Region, e.g., Central India)`
     5.  Click `Review + create`, then `Create`.
 
 * **Screenshot:**
-    ![Create Resource Group - Basics](images/rg_create.png)
-    *Description: Screenshot showing the "Create a resource group" form with details filled.*
-
+    ![Create Resource Group - Basics](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/18331ad9d657536ebad86588d927436095d58659/images/Resource.png)
+   
 #### 2. Create Virtual Network (VNet) and Subnets
 
 * **Purpose:** To establish a private network for all Azure resources and define subnets for different services (VMs and Bastion).
@@ -62,7 +59,7 @@ Here, each step performed in the Azure portal is explained in detail.
     1.  In the Azure Portal search bar, search for `Virtual networks` and select it.
     2.  Click on `+ Create`.
     3.  **Basics Tab:**
-        * **Subscription:** Your Subscription
+        * **Subscription:** Azure for Student 
         * **Resource Group:** `LoadBalancerProjectRG`
         * **Name:** `LoadBalancerVNet`
         * **Region:** `(Your Selected Region, same as RG)`
