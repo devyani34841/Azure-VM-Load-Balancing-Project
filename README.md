@@ -76,7 +76,7 @@ Here, each step performed in the Azure portal is explained in detail.
     5.  Click `Review + create`, then `Create`.
 
 * **Screenshots:**
-    ![Create VNet - Basics](images/vnet_basics.png)
+    ![Create VNet - Basics](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/b9b69e01c3add43047d54172c29be86baab193a1/images/Backendsubnet.png)
     *Description: Screenshot of the Virtual Network creation - Basics tab.*
     ![Create VNet - IP Addresses with Subnets](images/vnet_subnets.png)
     *Description: Screenshot of the Virtual Network creation - IP Addresses tab showing BackendSubnet and AzureBastionSubnet.*
