@@ -12,7 +12,7 @@ This project aims to address the growing traffic, performance issues, and downti
 
 The architecture of this project is illustrated in the following diagram:
 
-![Azure Load Balancer Architecture]()
+![Azure Load Balancer Architecture](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/9abc6369ae1744f03142cde212f39d8ebb7dff25/images/architecture.png)
 
 [cite_start](Replace `architecture_diagram.png` with your actual screenshot of the architecture diagram from the PDF) [cite: 14]
 
