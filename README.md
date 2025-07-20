@@ -263,16 +263,6 @@ Here, each step performed in the Azure portal is explained in detail.
         * Click `Add`.
     7.  Click `Review + create`, then `Create`.
 
-* **Screenshots:**
-    ![Create Load Balancer - Basics](images/lb_basics.png)
-    *Description: Screenshot of Load Balancer creation - Basics tab.*
-    ![Create Load Balancer - Frontend IP](images/lb_frontend_ip.png)
-    *Description: Screenshot of Load Balancer creation - Frontend IP configuration tab with public IP.*
-    ![Create Load Balancer - Backend Pool](images/lb_backend_pool.png)
-    *Description: Screenshot of Load Balancer creation - Backend pools tab showing lb-vm1 and lb-vm2 added.*
-    ![Create Load Balancer - Inbound Rule HTTP](images/lb_inbound_rule.png)
-    *Description: Screenshot of Load Balancer creation - Inbound rules tab with the HTTP load balancing rule and health probe configured.*
-
 ## 5. Testing and Verification
 
 * **Purpose:** To confirm that the Load Balancer is correctly distributing traffic to the backend VMs.
@@ -283,53 +273,10 @@ Here, each step performed in the Azure portal is explained in detail.
     4.  You should see the default IIS welcome page.
 
 * **Screenshot:**
-    ![Load Balancer Public IP Test](images/lb_public_ip_test.png)
-    *Description: Screenshot of a web browser showing the IIS default page when accessing the Load Balancer's public IP.*
+    ![Load Balancer Public IP Test](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/7bb862a612d3096c269450fe2e7b93b5c584091a/images/Screenshot%202025-07-21%20000006.png)
+  
 
-* **Optional (Visual Load Balancing Test):**
-    1.  Customize the `iisstart.htm` file in `C:\inetpub\wwwroot` on `lb-vm1` to include "Hello from VM1".
-    2.  Customize the `iisstart.htm` file in `C:\inetpub\wwwroot` on `lb-vm2` to include "Hello from VM2".
-    3.  Refresh the Load Balancer's public IP in your browser multiple times. You should see the message alternate between "Hello from VM1" and "Hello from VM2", demonstrating the load balancing in action.
 
-* **Screenshot (Optional):**
-    ![Load Balancer Visual Test](images/lb_visual_test.png)
-    *Description: Screenshot showing the browser alternating between "Hello from VM1" and "Hello from VM2" upon refresh.*
 
-## 6. Clean Up
 
-To avoid incurring unnecessary costs, it is a good practice to delete the resource group once the project is completed and verified.
-
-* **Steps:**
-    1.  In the Azure Portal search bar, search for `Resource groups` and select it.
-    2.  Find and select your resource group, `LoadBalancerProjectRG`.
-    3.  Click `Delete resource group` at the top of the page.
-    4.  Type the resource group name (`LoadBalancerProjectRG`) to confirm deletion and click `Delete`.
-
----
-
-### How to Upload to GitHub:
-
-1.  **Create a GitHub Account:** If you don't have an account, sign up at [github.com](https://github.com/).
-2.  **Create a New Repository:**
-    * Log in to GitHub.
-    * On your GitHub homepage, click the `New` button (on the left side or the `+` icon in the top right corner) and select `New repository`.
-    * **Repository name:** Give it a meaningful name like `Azure-Load-Balancer-Project` (or any other meaningful name).
-    * **Description:** Write a short description of your project.
-    * **Public/Private:** Select `Public` (so everyone can see it, and it's good for your resume/portfolio).
-    * **Initialize this repository with a README:** **MAKE SURE to check this box.** This will create an empty `README.md` file for you to edit.
-    * Click `Create repository`.
-3.  **Edit the `README.md` file:**
-    * After going to your repository, you will see the `README.md` file.
-    * Click on the pencil icon (edit button) next to that file.
-    * Copy the entire `Project Documentation Structure` (the content provided above, starting from `# Project 05...`) and paste it into this `README.md` editor box.
-4.  **Add Screenshots:**
-    * Wherever it says `![Alt text](images/screenshot_name.png)`, you need to add your screenshots.
-    * **Method to add screenshots:**
-        * The easiest way is: While editing the `README.md` file, **drag and drop** your screenshots directly from your computer into the `README.md` editor box. GitHub will automatically upload those screenshots to your repository (usually in an `images` folder) and insert their Markdown link `![Alt text](images/screenshot_name.png)` into your `README.md` file.
-        * If drag-drop doesn't work, you can first create an `images` folder in your GitHub repository (in the `Code` tab, click `Add file` -> `Create new file`, type `images/` as the name, then upload your files there). Then link those images in `README.md` using `![Alt text for image](images/your_screenshot_name.png)`.
-5.  **Commit Changes:**
-    * Once you have put all the details and screenshots in `README.md`, scroll to the bottom of the editor page.
-    * In the "Commit changes" section, write a short message, like `Initial project documentation with Azure steps and screenshots`.
-    * Click the `Commit changes` button.
-
-Your project is now live on GitHub, and you can share its link in your resume or portfolio! This approach is professional and descriptive.
+   
