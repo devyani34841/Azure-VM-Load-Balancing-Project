@@ -136,8 +136,10 @@ Here, each step performed in the Azure portal is explained in detail.
     4.  Click `Review + create`, then `Create`.
 
 * **Screenshots:**
-    ![Create Azure Bastion - Basics](images/bastion_basics.png)
-    *Description: Screenshot of the Azure Bastion creation - Basics tab.*
+* 
+    ![Create Azure Bastion - Basics]()https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/ef8e34ed7cba21148033279789db1beaa32f356d/images/createbastion.png
+
+  
     ![Azure Bastion Deployment In Progress](images/bastion_deploying.png)
     *Description: Screenshot showing Azure Bastion deployment in progress (can take a few minutes).*
 
