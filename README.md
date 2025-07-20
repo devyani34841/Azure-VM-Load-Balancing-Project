@@ -77,10 +77,11 @@ Here, each step performed in the Azure portal is explained in detail.
 
 * **Screenshots:**
     ![Create VNet - Basics](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/b9b69e01c3add43047d54172c29be86baab193a1/images/Backendsubnet.png)
-    *Description: Screenshot of the Virtual Network creation - Basics tab.*
-    ![Create VNet - IP Addresses with Subnets](images/vnet_subnets.png)
-    *Description: Screenshot of the Virtual Network creation - IP Addresses tab showing BackendSubnet and AzureBastionSubnet.*
+   
+    ![Create VNet - IP Addresses with Subnets](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/64cecefdb0dfda6545b1364086495a6aec0531ce/images/Bastion.png)
 
+  ![Create VNet - IP Addresses ]()
+   
 ### B. Deploying Network Services
 
 #### 1. Create NAT Gateway
