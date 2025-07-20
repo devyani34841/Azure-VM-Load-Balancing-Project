@@ -137,7 +137,7 @@ Here, each step performed in the Azure portal is explained in detail.
 
 * **Screenshots:**
 * 
-    ![Create Azure Bastion - Basics]()https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/ef8e34ed7cba21148033279789db1beaa32f356d/images/createbastion.png
+    ![Create Azure Bastion - Basics](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/ef8e34ed7cba21148033279789db1beaa32f356d/images/createbastion.png)
 
   
     ![Azure Bastion Deployment In Progress](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/fc5a7c8ffe8df4c55a01b51f863f8a7c23616d11/images/c%20bastion.png)
@@ -273,6 +273,7 @@ Here, each step performed in the Azure portal is explained in detail.
     4.  You should see the default IIS welcome page.
 
 * **Screenshot:**
+* 
     ![Load Balancer Public IP Test](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/7bb862a612d3096c269450fe2e7b93b5c584091a/images/Screenshot%202025-07-21%20000006.png)
   
 
