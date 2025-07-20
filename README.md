@@ -168,12 +168,6 @@ Here, each step performed in the Azure portal is explained in detail.
         * **Public IP:** `None` (Crucial for secure setup with Load Balancer and NAT Gateway)
     5.  Click `Review + create`, then `Create`.
 
-* **Screenshots:**
-    ![Create VM1 - Basics](images/vm1_basics.png)
-    *Description: Screenshot of VM1 creation - Basics tab, highlighting name, region, availability zone, and admin account.*
-    ![Create VM1 - Networking](images/vm1_networking.png)
-    *Description: Screenshot of VM1 creation - Networking tab, showing VNet, Subnet, and Public IP set to None.*
-
 #### 2. Create VM2 (`lb-vm2`)
 
 * **Purpose:** To create the second web server VM for the load balancer's backend pool.
@@ -188,9 +182,9 @@ Here, each step performed in the Azure portal is explained in detail.
     4.  Click `Review + create`, then `Create`.
 
 * **Screenshot:**
-    ![Create VM2 - Basics](images/vm2_basics.png)
-    *Description: Screenshot of VM2 creation - Basics tab, highlighting name and availability zone.*
+    ![Create VM2 - Basics](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/40a448086188e64f87da2db1b9a402500dce4fb8/images/virtualmachine.png)
 
+    ![Create VM2 - Basic]
 ### D. Install IIS and Configure Load Balancer
 
 #### 1. Connect to VMs and Install IIS
