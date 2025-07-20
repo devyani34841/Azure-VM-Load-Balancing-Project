@@ -116,7 +116,7 @@ Here, each step performed in the Azure portal is explained in detail.
     ![Create NAT Gateway - Outbound IP](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/d6335798b79f67bf0165c9541a7ceb5e3d2e3c0a/images/NatGateway2.png)
 
   
-    ![Create NAT Gateway - Subnets]()
+    ![Create NAT Gateway - Subnets](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/1223e44cc2cd5b2133a65c094fe30650d7dc9121/images/NatGateway3.png)
   
 
 #### 2. Configure Azure Bastion
