@@ -208,11 +208,11 @@ Here, each step performed in the Azure portal is explained in detail.
 * **Screenshots:**
 * 
     ![Connect to VM via Bastion](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/94722000b890e0b7fa0b57150e96c442a110a8fa/images/fbastion.png)
-    *Description: Screenshot showing connecting to a VM using Azure Bastion.*
+   
     ![Install IIS - Server Manager Roles](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/fed3c62f67f05aed6390f491a61331709e040dc7/images/out.png)
-    *Description: Screenshot inside the VM, showing Server Manager with "Web Server (IIS)" selected for installation.*
-    ![IIS Default Page in VM](images/iis_localhost_vm.png)
-    *Description: Screenshot inside the VM, showing the default IIS welcome page accessed via `http://localhost`.*
+   
+    ![IIS Default Page in VM](https://github.com/devyani34841/Azure-VM-Load-Balancing-Project/blob/d31ecb59d165e2e697a668927c769609c4839639/images/output.png)
+  
 
 #### 2. Create Public Azure Load Balancer
 
@@ -221,7 +221,7 @@ Here, each step performed in the Azure portal is explained in detail.
     1.  In the Azure Portal search bar, search for `Load balancers` and select it.
     2.  Click on `+ Create`.
     3.  **Basics Tab:**
-        * **Subscription:** Your Subscription
+        * **Subscription:** Azure for Student 
         * **Resource Group:** `LoadBalancerProjectRG`
         * **Name:** `PublicWebLoadBalancer`
         * **Region:** `(Your Selected Region)`
